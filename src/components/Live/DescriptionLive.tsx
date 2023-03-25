@@ -43,16 +43,11 @@ const DescriptionLive = () => {
                 </div>
             </div>
 
-            <div className="about-container">
+            <div className="reservation-container">
                 <div className="reservation">
-
-                    <h3 className="subtitle">24 de Marzo 2023</h3>
-                    <h3 className="subtitle">11:00 AM</h3>
-
-                    <h1 style={{ margin: '1rem' }}>Title</h1>
-                    <p style={{ fontSize: '1.5rem' }}>
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
+                    <h3 className="subtitle">Reserva ahora</h3>
+                    <button style={{backgroundColor:"white" , borderRadius:'1rem'}}>  <h1 style={{ margin: '1rem' }}>RESERVAR</h1></button>
+                  
                 </div>
             </div>
         </div>

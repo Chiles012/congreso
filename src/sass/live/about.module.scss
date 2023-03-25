@@ -15,11 +15,21 @@
     }
   
 }
+
+.reservation-container{
+    width: 100vw;
+    height: 50rem;
+    margin: 5rem;
+}
 .about-image{
     width: 40rem;
 }
 
 .reservation{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
