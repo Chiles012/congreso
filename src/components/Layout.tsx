@@ -1,12 +1,12 @@
 import { PropsWithChildren, FC } from "react"
 import { Footer, Header } from "./index"
 
-const Layout:FC<PropsWithChildren> = ({ children }) => {
+const Layout: FC<PropsWithChildren> = ({ children }) => {
     return (
         <>
             <Header />
-                { children }
-            <Footer/>
+            {children}
+            <Footer />
         </>
     )
 }

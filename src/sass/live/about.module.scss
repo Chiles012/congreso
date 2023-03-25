@@ -1,0 +1,25 @@
+.about-container{
+    width: 100vw;
+    margin: 5rem;
+
+    .about-content{
+        display: flex;
+        gap: 1rem;
+      .about-text{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+       
+      }
+    }
+  
+}
+.about-image{
+    width: 40rem;
+}
+
+.reservation{
+    width: 100vw;
+    text-align: center;
+}

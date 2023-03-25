@@ -6,6 +6,16 @@ const Header = () => {
         <>
             <header>
                 <img src={Logo} alt="logo congreso" />
+                <div className="">
+                    <nav className="">
+                        <ol className="description-nav">
+                            <li className="crumb"><a href="#">Home</a></li>
+                            <li className="crumb"><a href="#">Videos</a></li>
+                            <li className="crumb"><a href="#">Redes</a></li>
+                            <li className="crumb"><a href="#">Subscribe</a></li>
+                        </ol>
+                    </nav>
+                </div>
                 <List
                     size={30}
                 />

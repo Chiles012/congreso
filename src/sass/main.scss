@@ -1,21 +1,23 @@
 @use './live/live.module.scss';
 @use './live/description.live.scss';
+@use './live/about.module.scss';
+@use './reset.scss';
+@use './live/card.scss';
+
 
 $bg-primary: #00a7e6;
-$bg: #f6f6f6;
+
 
 .subtitle {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 1rem;
-    color: gray;
+    font-size: 1.5rem;
+    margin: 1rem;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    max-width: 100vw;
+  overflow: none;
 }
 
 header {
@@ -29,5 +31,23 @@ header {
 
     img {
         width: 50px;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.button{
+    padding:.6rem;
+    border-radius: 1rem;
+    border: none;
+    a{  
+       
+        color: black;
     }
 }

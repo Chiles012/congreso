@@ -1,7 +1,7 @@
 const CounterLive = () => {
     return (
         <div className="counter">
-            <h3 style={{color:'white'}}>El en vivo empieza en:</h3>
+            <h3 style={{ fontSize:'2rem'}}>El en vivo empieza en:</h3>
             <div className="container-counter">
                 <div className="counter-item">
                     <h1>00</h1>
