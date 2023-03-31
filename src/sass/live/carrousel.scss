@@ -1,0 +1,47 @@
+.carrousel-content {
+    position: relative;
+    width: 98dvw;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    .carrousel-title {
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        align-items: center;
+    }
+
+    .carrousel-cards {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        gap: 5rem;
+    }
+}
+
+.carrousel-button {
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.carrousel-button-1 {
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-size: 3rem;
+    left: 97%;
+    cursor: pointer;
+
+}

@@ -1,31 +1,43 @@
-.about-container{
+.about-container {
     width: 100vw;
-    margin: 5rem;
+    height: 30rem;
+    margin-top: 1rem;
 
-    .about-content{
+    .about-content {
         display: flex;
-        gap: 1rem;
-      .about-text{
-        text-align: center;
         justify-content: center;
         align-items: center;
-        
-       
-      }
+        gap: 1rem;
+        height: 100%;
+
+        .about-image-container {
+            width: 20rem;
+        }
+
+        .about-text {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
     }
-  
+
 }
 
-.reservation-container{
+.reservation-container {
     width: 100vw;
-    height: 50rem;
-    margin: 5rem;
-}
-.about-image{
-    width: 40rem;
 }
 
-.reservation{
+.about-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.reservation {
     display: flex;
     flex-direction: column;
     width: 100vw;

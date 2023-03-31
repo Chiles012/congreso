@@ -6,6 +6,10 @@
 }
 
 .counter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h3 {
         margin: 0;
     }
@@ -13,10 +17,10 @@
 
 .container-counter {
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
-    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-left: 5rem;
 
     .counter-item {
         color: white;
@@ -42,18 +46,6 @@
     }
 }
 
-.carrousel-content{
-
-    width: 100vw;
-    height: 20rem;
-    .carrousel-cards{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 5rem;
-        gap: 5rem;
-    }
-}
 
 .description-nav{
     display: flex;
