@@ -5,7 +5,8 @@ import DescriptionLive from "./DescriptionLive"
 import ProgressBar from "./ProgressBar"
 import Reservation from "./Reservation"
 import ImageCarousel from "./ImageCarousel"
-
+import Speakers from "./Speakers"
+import SpeakersCard from "./SpeakersCard"
 
 export {
     About,
@@ -14,5 +15,7 @@ export {
     DescriptionLive,
     ProgressBar,
     Reservation, 
-    ImageCarousel
+    ImageCarousel,
+    Speakers,
+    SpeakersCard
 }

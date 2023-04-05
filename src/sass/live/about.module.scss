@@ -11,7 +11,7 @@
         height: 100%;
 
         .about-image-container {
-            width: 20rem;
+            width: 30rem;
         }
 
         .about-text {
@@ -22,26 +22,13 @@
             display: flex;
             flex-direction: column;
             width: 50%;
-
+            line-height: 2rem;
         }
     }
 
 }
 
-.reservation-container {
-    width: 100vw;
-}
-
 .about-image {
     max-width: 100%;
     height: auto;
-}
-
-.reservation {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }

@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    color: white;
+    height: 5rem;
+}
+
+.description-footer{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    gap: 5rem;
+    font-size: 1.3rem;
+    a{
+        font-size: 1.3rem;
+        color: WHITE;
+    }
+}

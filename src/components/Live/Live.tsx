@@ -1,5 +1,5 @@
 
-import { DescriptionLive, About , Reservation , ImageCarousel  } from "./index"
+import { DescriptionLive, About , Reservation , ImageCarousel , Speakers  } from "./index"
 
 const images: string[] = [
     require("../../images/confe1.jpg"),
@@ -21,6 +21,8 @@ const Live = () => {
             <DescriptionLive />
             <ImageCarousel images={images} autoScrollInterval={3000}/>
             <About/>
+            <Speakers/>
+           
             <Reservation/>
            
            

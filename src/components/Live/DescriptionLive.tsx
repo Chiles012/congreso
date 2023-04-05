@@ -1,10 +1,10 @@
 import CounterLive from "./CounterLive"
-import ProgressBar from "./ProgressBar"
+import {conference} from '../../assets'
 
 const DescriptionLive = () => {
     return (
         <div className="descriptionlive">
-
+             
             <div className="description-content">
 
                 <h3 className="subtitle">24 de Marzo 2023</h3>
@@ -16,7 +16,7 @@ const DescriptionLive = () => {
                 </p>
                 <CounterLive />
             </div>
-
+            <video  src={conference} loop muted autoPlay></video>
         </div>
     )
 }

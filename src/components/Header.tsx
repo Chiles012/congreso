@@ -4,7 +4,7 @@ import { List } from 'react-bootstrap-icons';
 const Header = () => {
     return (
         <>
-            <header>
+            <header style={{  backgroundColor: 'rgba(0, 167, 230, .5)'}}>
                 <img src={Logo} alt="logo congreso" />
                 <div className="">
                     <nav className="">

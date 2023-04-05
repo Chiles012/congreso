@@ -19,7 +19,7 @@ const ProgressBar: React.FC<CircularProgressProps> = ({
   const [offset, setOffset] = useState(0);
 
   useEffect(() => {
-    const progressOffset = ((100 - progress) / 100) * size * Math.PI;
+    const progressOffset = ((60 - progress) / 60) * size * Math.PI;
     setOffset(progressOffset);
   }, [setOffset, size, progress]);
 

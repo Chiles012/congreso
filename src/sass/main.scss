@@ -1,11 +1,6 @@
-@use './live/live.module.scss';
-@use './live/description.live.scss';
-@use './live/about.module.scss';
+@use './live/live.index.scss';
 @use './reset.scss';
-@use './live/card.scss';
-@use './live/progress.module.scss';
-@use './live/carrousel.scss';
-
+@use './footer.scss';
 
 $bg-primary: #00a7e6;
 
