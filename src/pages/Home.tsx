@@ -1,11 +1,11 @@
-import { Live } from "../components"
+import { Jumbotron } from "../components";
 
 const Home = () => {
     return (
         <>
-            <Live/>
+           <Jumbotron/> 
         </>
-    )
+    );
 }
 
-export default Home
+export default Home;

@@ -1,14 +1,19 @@
-import { Layout } from "./components";
-import MainNavigation from "./navigation/MainNavigation";
-
-import './sass/main.scss';
+import { Route, Routes } from "react-router-dom";
+import routes from "./routes/routes";
 
 function App() {
+
   return (
-    <Layout>
-      <MainNavigation/>
-    </Layout>
-  );
+    <>
+      <Routes>
+        {
+          routes.map((route, index) => (
+            <Route key={index} path={route.path} element={route.component} />
+          ))
+        }
+      </Routes>
+    </>
+  )
 }
 
-export default App;
+export default App

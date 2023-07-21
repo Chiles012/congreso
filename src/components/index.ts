@@ -1,11 +1,7 @@
-import Layout from "./Layout"
-import Header from "./Header"
-import Footer from "./Footer"
-import Live from "./Live/Live";
+import Jumbotron from "./jumbotron";
+import Counter from "./counter";
 
-export {
-    Layout,
-    Header,
-    Footer,
-    Live
-}
+export { 
+    Jumbotron,
+    Counter
+};
